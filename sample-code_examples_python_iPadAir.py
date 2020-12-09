@@ -19,11 +19,11 @@ class Untitled(unittest.TestCase):
         self.dc['reportDirectory'] = self.reportDirectory
         self.dc['reportFormat'] = self.reportFormat
         self.dc['testName'] = self.testName
-        self.dc['udid'] = 'd4d6437b0eb9a48a90b3b98ae541ac636ff8746b'
+        self.dc['udid'] = 'dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxb'
         self.dc['platformName'] = 'ios'
         self.dc['automationName'] = 'XCUITest'
         self.dc['platformVersion'] = '12.4.8'
-        self.dc['xcodeOrgId'] = '87222P5M9E'
+        self.dc['xcodeOrgId'] = 'xxxxxxxxxxx'
         self.dc['xcodeSigningId'] = 'iPhone Developer'
         self.dc['deviceName'] = 'iPad4,1'
         self.dc['noReset'] = 'true'
