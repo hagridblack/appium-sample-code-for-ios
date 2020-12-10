@@ -30,7 +30,8 @@ class Untitled(unittest.TestCase):
 
     def testUntitled(self):
         # Demo1: click to chrome
-        self.driver.find_element_by_xpath("xpath=//*[@text='Chrome']").click()
+        time.sleep(3)
+        self.driver.find_element_by_xpath("xpath=//*[@contentDescription='Chrome' and @class='android.widget.RelativeLayout']").click()
 
         time.sleep(3)
         self.driver.find_element_by_xpath("xpath=//*[@text='搜尋或輸入網址']").send_keys('yahoo')
