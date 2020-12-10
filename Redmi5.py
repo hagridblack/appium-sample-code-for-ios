@@ -19,7 +19,7 @@ class Untitled(unittest.TestCase):
         self.dc['reportDirectory'] = self.reportDirectory
         self.dc['reportFormat'] = self.reportFormat
         self.dc['testName'] = self.testName
-        self.dc['udid'] = '3e97965e7ce5'
+        self.dc['udid'] = 'xxxxxxxxxxxxx'
         self.dc['platformName'] = 'android'
         self.dc['noReset'] = 'true'
         self.dc['autoAcceptAlerts'] = 'true'
