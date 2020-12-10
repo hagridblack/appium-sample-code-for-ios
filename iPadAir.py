@@ -45,7 +45,7 @@ class Untitled(unittest.TestCase):
         # Demo2: launch chrome
         time.sleep(3)
         self.driver.find_element_by_xpath("xpath=//*[@text='搜尋或輸入網址']").send_keys('yahoo')
-        self.driver.find_element_by_xpath("xpath=//*[@text='搜尋或輸入網址' and @class='UIAStaticText']").click()
+        self.driver.find_element_by_xpath("xpath=//*[@text='Go']").click()
 
 
     def tearDown(self):
